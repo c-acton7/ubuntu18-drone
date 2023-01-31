@@ -384,7 +384,7 @@ int video_inference(NanoDet& detector, const char* path) {
 int main(int argc, char** argv)
 {
     std::string mode = "live";
-    std::string device = "MYRIAD";
+    std::string device = "CPU";
     std::string model_path = "FP32/nanodet.xml";
     std::string img_vid_path = "";
     int precision = 32;
