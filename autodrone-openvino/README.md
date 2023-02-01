@@ -51,7 +51,6 @@ source /opt/intel/openvino_2021/bin/setupvars.sh
 
 
 ```shell
-source /opt/intel/openvino_2021/bin/setupvars.sh
 mkdir build
 cd build
 cmake ..
