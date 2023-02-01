@@ -53,6 +53,7 @@ source /opt/intel/openvino_2021/bin/setupvars.sh
 
 
 ```shell
+cd autodrone-openvino
 mkdir build
 cd build
 cmake ..
@@ -62,7 +63,7 @@ mkdir FP32
 
 ## Run demo
 
-!First, move nanodet openvino model files (.bin .xml .mapping) to the FP32 folder. Then run these commands:
+! First, move nanodet openvino model files (.bin .xml .mapping) to the FP32 folder. Then run these commands:
 
 ### Webcam
 
