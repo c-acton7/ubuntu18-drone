@@ -1,4 +1,4 @@
-Run this command in shell. (Every time before using OpenVINO)
+Run this command in shell every time before using OpenVINO to create environment.
 
 ```shell
 source /opt/intel/openvino_2021/bin/setupvars.sh
@@ -16,7 +16,7 @@ Add this line to the end of the file
 source /opt/intel/openvino_2021/bin/setupvars.sh
 ```
 
-## Convert model
+## Convert Model (already converted so no need to do this)
 
 1. Export ONNX model
 
@@ -49,17 +49,7 @@ source /opt/intel/openvino_2021/bin/setupvars.sh
 
 ## Build
 
-### Windows
 
-```cmd
-<OPENVINO_INSTSLL_DIR>\openvino_2021\bin\setupvars.bat
-mkdir -p build
-cd build
-cmake ..
-msbuild nanodet_demo.vcxproj /p:configuration=release /p:platform=x64
-```
-
-### Linux
 ```shell
 source /opt/intel/openvino_2021/bin/setupvars.sh
 mkdir build
