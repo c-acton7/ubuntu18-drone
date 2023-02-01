@@ -62,7 +62,7 @@ mkdir FP32
 
 ## Run demo
 
-First, move nanodet openvino model files (.bin .xml .mapping) to the FP32 folder. Then run these commands:
+!First, move nanodet openvino model files (.bin .xml .mapping) to the FP32 folder. Then run these commands:
 
 ### Webcam
 
