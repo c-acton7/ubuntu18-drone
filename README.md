@@ -57,8 +57,9 @@ mkdir build
 cd build
 cmake ..
 make
+mkdir FP32
 ```
-
+Move the nanodet binary, mapping, and xml to the FP32 directory
 
 ## Run demo
 
