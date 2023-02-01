@@ -1,4 +1,19 @@
 # SampleSolution
+If you haven't installed OpenVINO 2021:
+
+Setup Directory:
+
+```shell
+sudo mkdir /opt/intel/
+```
+
+Change directory to Downloads and download the file at this link:
+https://storage.openvinotoolkit.org/repositories/openvino/packages/2021.4.2/l_openvino_toolkit_dev_ubuntu20_p_2021.4.752.tgz
+
+```shell
+tar -xf l_openvino_toolkit_dev_ubuntu20_p_2021.4.752.tgz
+sudo mv l_openvino_toolkit_dev_ubuntu20_p_2021.4.752 /opt/intel/openvino_2021.4.752
+```
 
 Run this command in shell every time before using OpenVINO to create environment.
 
